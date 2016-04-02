@@ -1,0 +1,17 @@
+#displayResult{
+	width: 40%;
+	padding: 0.5%;
+}
+
+.displayNum{
+	background-color: #15BBCF;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	float: left;
+	height: 30px;
+	padding: 0 10px;
+	margin: 10px 10px;
+}
+
