@@ -1,0 +1,59 @@
+body{
+	padding: 20px;
+	margin: 0;
+}
+.content{
+	width: 100%;
+	height: auto;
+	background: #eee;
+	outline: 1px solid #999;
+	padding: 20px;
+	/* 抑制浮动 */
+	box-sizing: border-box;
+	overflow: auto;
+
+}
+
+[class$="-column"]{
+	padding: 20px;
+	background-color: white;
+	outline: 1px solid #999;
+	box-sizing: border-box;
+	float: left;
+}
+
+.left-column{
+	width: 200px;
+}
+
+.logo{
+	width: 80px;
+	height: 80px;
+	background-color: #15BBCF;
+}
+
+.left-column .logo, .team-text{
+	float: left;
+}
+
+.team-text{
+	margin-left: 10%;
+	font-weight: bold;	
+	font-family: "微软雅黑";
+}
+
+.right-column{
+	width: 120px;
+	float: right;
+	padding: 10px 20px 10px;
+}
+
+.right-column .logo{
+	margin: 10px auto 10px;
+}
+
+.mid-column{
+	margin: 0 20px;
+	width: calc(100% - 360px);
+}
+
