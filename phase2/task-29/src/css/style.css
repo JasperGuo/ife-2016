@@ -1,0 +1,76 @@
+p{
+	padding: 0;
+	margin: 0;
+}
+
+form {
+	width: 80%;
+	margin: 10% auto;
+	color: black;
+	font-family: '微软雅黑';
+}
+
+form > label{
+	display: block;
+	width: 100%;
+}
+
+form > label > span{
+}
+
+form > label > input{
+	border-radius: 5px;
+	margin: 0 5px;
+}
+
+form > label > input[type="text"]{
+	height: 38px;	
+	width: 60%;
+	border: 2px solid;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+form > label > input[type="button"]{
+	height: 43px;
+	border: 0;
+	border: 2px solid #16BBCF;
+	background-color: #15BBCF;
+	padding: 10px;
+	color: white;
+}
+
+form > label > p{
+	margin-top: 5px;
+	margin-left: 57px;
+}
+
+.spec-font{
+	font-size: 16px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+}
+
+.success-hint{
+	color: rgb(144, 238, 144);
+}
+
+.error-hint{
+	color: red;
+}
+
+.msg-hint{
+	color: #a8a8a8;
+}
+
+form > label > input.success-text{
+	border-color: rgb(144, 238, 144);
+}
+
+form > label > input.error-text{
+	border-color: red;
+}
+
+form > label > input.normal-text{
+	border-color: #a8a8a8;
+}

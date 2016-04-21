@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<form id = "validateForm">
+		<label for = "name">
+			<span>名称 </span>
+			<input type = "text" class = "normal-hint" name = "name" id = "name" />
+			<p class = "hint normal-hint"></p>
+		</label>
+		<label for = "passwd">
+			<span>密码 </span>
+			<input type = "password" class = "normal-hint" name = "passwd" id = "passwd" />
+			<p class = "hint normal-hint"></p>
+		</label for = "config-passwd">
+		<label for = "config-passwd">
+			<span class = "label-span--dName">确认密码 </span>
+			<input type = "password" class = "normal-hint" name = "config-passwd" id = "config-passwd" />
+			<p class = "hint normal-hint"></p>
+		</label>
+		<label for = "email">
+			<span>邮箱 </span>
+			<input type = "email" class = "normal-hint" name = "email" id = "email" />
+			<p class = "hint normal-hint"></p>
+		</label>
+		<label for = "phone">
+			<span>手机 </span>
+			<input type = "text" class = "normal-hint" name = "phone" id = "phone" />
+			<p class = "hint normal-hint"></p>
+		</label>
+		<input type = "button" id = "submit" value = "提交" />
+	</form>
+
+	<script type="text/javascript" src = "../js/Validator.js"></script>
+	<script type="text/javascript" src = "../js/validate.js"></script>
+	<script type="text/javascript" src = "../js/main.js"></script>
+</body>
+</html>
