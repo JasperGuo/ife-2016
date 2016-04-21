@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>task23</title>
+	<style>
+	  body{
+	  	margin: 0;
+	  	padding: 0;
+	  }
+
+	  #container,p{
+	  	width:750px;
+	  	margin: 30px auto;
+	  	
+	  }
+
+	  div{
+	  	border: 2px solid #111;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        margin: 15px;
+        width: 90%;
+        height: 90%;
+        background-color: #ffffff;
+	  }
+	  
+	</style>
+</head>
+<body>
+	<div id="container" class="son_1">0
+		<div class="son_2">1
+			<div class="son_3">4</div>
+			<div class="son_3">5</div>
+			<div class="son_3">6</div>
+			<div class="son_3">7</div>
+		</div>
+		<div class="son_2">2
+			<div class="son_3">8</div>
+			<div class="son_3">9</div>
+			<div class="son_3">10</div>
+		</div>
+		<div class="son_2">3
+			<div class="son_3">11</div>
+			<div class="son_3">12</div>
+		</div>
+	</div>
+	<p>
+    	<button id="BF-search">广度优先</button>
+    	<button id="DF-search">深度优先</button>
+    	<input id="keyword" type="text" placeholder="请输入关键字">
+    	<button id="search">开始搜索</button>
+    <p>
+
+    <script src="task23.js"></script>
+</body>
+</html>
