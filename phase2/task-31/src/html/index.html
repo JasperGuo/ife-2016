@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<form>
+
+		<div class = "form-block role-option-block">
+			<input type = "radio" name = "role" id = "student" checked	 />
+			<label for = "student">在校生</label>
+
+			<input type = "radio" name = "role" id = "nonstudent">
+			<label for = "nonstudent">非在校生</label>
+		</div> 
+
+		<div class = "form-block campus-option-block">
+			<span class = "sub-title">学校</span>
+			<select id = "city" class = "form-block-input">
+				<option value = "北京">北京</option>
+				<option value = "西安">西安</option>
+			</select>
+			<select id = "campus" class = "form-block-input">
+				<option value = "">北京大学</option>
+				<option value = "">北京大学</option>
+				<option value = "">北京大学</option>
+				<option value = "">北京大学</option>
+			</select>
+		</div>
+
+		<div class = "form-block company-block form-block-unvisible">
+			<label class = "sub-title" for = "company">就业单位</label>
+			<input type = "text" class = "form-block-input" name = "company" id = "company" />
+		</div>
+
+	</form>
+
+	<script type="text/javascript" src = "../js/main.js"></script>
+
+</body>
+</html>

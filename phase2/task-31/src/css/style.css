@@ -1,0 +1,53 @@
+form{
+	width: 800px;
+	margin: 5% auto;
+}
+
+.form-block{
+	margin-top: 4%;
+
+	font-family: 'Microsoft yahei';
+	font-size: 20px;
+}
+
+.form-block-unvisible{
+	display: none;
+}
+
+.role-option-block > input{
+	margin-left: 8%;
+}
+
+#nonstudent{
+	margin-left: 16%;
+}
+
+#city{
+	margin-left: 2%;
+	width: 100px;
+}
+
+#campus{
+	margin-left: 10%;
+	width: 300px;
+}
+
+.company-block > label{
+	margin-left: -5%;
+}
+
+#company{
+	width: 480px;
+	margin: 2%;
+}
+
+.sub-title{
+	font-weight: bold;
+}
+
+.form-block-input{
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #a8a8a8;
+	font-size: 15px;
+}
