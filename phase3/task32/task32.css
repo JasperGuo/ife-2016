@@ -1,0 +1,29 @@
+	.container{width:620px;margin: 40px auto;}
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	 table{
+	 	border-collapse: collapse;
+	 	width:100%;
+	 	text-align: center;
+	 }
+
+	 th,td{
+	 	border: 1px solid #DDC;
+	 	height:35px;
+	 	font-size: 16px;
+	 	font-family: "宋体";
+	 }
+
+	 th{
+	 	background-color: #111;
+	 	color: #FFF;
+	 }
+	 th:nth-child(n+2){
+	 	background-image: url(icon.jpeg);
+	 	background-position: right;
+	 	background-repeat: no-repeat;
+	 }
